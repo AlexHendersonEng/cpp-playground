@@ -13,9 +13,17 @@ class Log {
 		const int LogLevelInfo = 2;
 
 	private:
-		int m_LogLevel = LogLevelInfo;
+		int m_LogLevel;
 
 	public:
+		Log() {
+			m_LogLevel = LogLevelInfo;
+		}
+
+		Log(int LogLevel) {
+			m_LogLevel = LogLevel;
+		}
+
 		void SetLevel(int level) {
 			m_LogLevel = level;
 		}
