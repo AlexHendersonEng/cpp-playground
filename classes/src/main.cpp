@@ -24,6 +24,10 @@ class Log {
 			m_LogLevel = LogLevel;
 		}
 
+		~Log() {
+			std::cout << "Destroyed Log object instance!" << std::endl;
+		}
+
 		void SetLevel(int level) {
 			m_LogLevel = level;
 		}
@@ -44,13 +48,19 @@ class Log {
 		}
 };
 
-int main() {
+// Added function so destructor can be seen being called in standard output
+void Function() {
 	// Instantiate log class
 	Log log;
 	log.SetLevel(log.LogLevelInfo);
 	log.Error("Error occurred!");
 	log.Warn("Consider yourself warned!");
 	log.Info("For your information!");
+}
+
+int main() {
+	// Call function
+	Function();
 
 	// Wait for user input to not close debug window instantly
 	std::cin.get();
