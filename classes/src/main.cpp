@@ -5,8 +5,14 @@
 // that a class has it's members private by default
 // whereas a struct has it's members public by default
 
+// Parent class definition
+class Parent {
+	public:
+		const char* name = "Parent class member";
+};
+
 // Log class definition
-class Log {
+class Log : public Parent {
 	public:
 		const int LogLevelError = 0;
 		const int LogLevelWarning = 1;
@@ -52,10 +58,15 @@ class Log {
 void Function() {
 	// Instantiate log class
 	Log log;
+
+	// Set logging level and print to log
 	log.SetLevel(log.LogLevelInfo);
 	log.Error("Error occurred!");
 	log.Warn("Consider yourself warned!");
 	log.Info("For your information!");
+
+	// Access parent class member using inheritance
+	std::cout << log.name << std::endl;
 }
 
 int main() {
