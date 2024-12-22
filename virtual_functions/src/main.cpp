@@ -1,10 +1,20 @@
 #include <iostream>
 #include <string>
 
-class Entity {
+class Printable {
+public:
+	// This is a pure virtual function or interface which
+	// must be overwritten in child classes
+	virtual std::string GetClassName() = 0;
+};
+
+class Entity : public Printable{
 public:
 	// Set method as virtual so it can be overrode in child classes
 	virtual std::string GetName() { return "Entity!"; };
+
+	// Override pure virtual function in parent class
+	std::string GetClassName() override { return "Entity!"; };
 };
 
 class Player : public Entity {
@@ -22,9 +32,15 @@ public:
 	std::string GetName() override { 
 		return m_Name;
 	};
+
+	// Override function in parent class
+	std::string GetClassName() override { return "Player!"; };
 };
 
 int main() {
+	// Virtual function heading
+	std::cout << "Virtual Functions" << std::endl;
+
 	// Instantiate entity object and print result of GetName
 	Entity* e = new Entity;
 	std::cout << e->GetName() << std::endl;
@@ -39,6 +55,15 @@ int main() {
 	// function is set as virtual in Entity parent class
 	Entity* e1 = p;
 	std::cout << e1->GetName() << std::endl;
+
+	// Pure virtual function heading
+	std::cout << "Pure Virtual Functions" << std::endl;
+
+	// Print result of GetClassName
+	std::cout << e->GetClassName() << std::endl;
+
+	// Print result of GetClassName
+	std::cout << p->GetClassName() << std::endl;
 
 	// Wait for user input to stop debug window closing immediately
 	std::cin.get();
