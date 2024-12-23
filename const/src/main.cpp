@@ -1,12 +1,17 @@
 #include <iostream>
 
 class Entity {
+public:
+	mutable bool flag = false; // mutable keyword allows flag variable to be
+							   // changed in const method
 private:
 	int m_X, m_Y;
 public:
 	int GetX() const // The const keyword stops any member variables being 
 		             // modified in this member function
 	{
+		flag = true; // Can be changed in const method because of mutable
+					 // keyord in defintion
 		return m_X;
 	}
 };
