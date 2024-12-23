@@ -22,9 +22,9 @@ class Log : public Parent {
 		int m_LogLevel;
 
 	public:
-		Log() {
-			m_LogLevel = LogLevelInfo;
-		}
+		Log() 
+			: m_LogLevel(LogLevelInfo) // Class member initialiser list
+		{ }
 
 		Log(int LogLevel) {
 			m_LogLevel = LogLevel;
