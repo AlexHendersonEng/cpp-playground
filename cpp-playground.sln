@@ -49,6 +49,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "templates", "templates\temp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "macros", "macros\macros.vcxproj", "{91740AA7-031B-443B-9137-F4595ABA7CFE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "auto", "auto\auto.vcxproj", "{52330F1D-E9BE-4F4F-9A2C-820979240BA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -162,6 +164,11 @@ Global
 		{91740AA7-031B-443B-9137-F4595ABA7CFE}.Debug|x86.ActiveCfg = Debug|x64
 		{91740AA7-031B-443B-9137-F4595ABA7CFE}.Release|x64.ActiveCfg = Debug|x64
 		{91740AA7-031B-443B-9137-F4595ABA7CFE}.Release|x86.ActiveCfg = Debug|x64
+		{52330F1D-E9BE-4F4F-9A2C-820979240BA3}.Debug|x64.ActiveCfg = Debug|x64
+		{52330F1D-E9BE-4F4F-9A2C-820979240BA3}.Debug|x64.Build.0 = Debug|x64
+		{52330F1D-E9BE-4F4F-9A2C-820979240BA3}.Debug|x86.ActiveCfg = Debug|x64
+		{52330F1D-E9BE-4F4F-9A2C-820979240BA3}.Release|x64.ActiveCfg = Debug|x64
+		{52330F1D-E9BE-4F4F-9A2C-820979240BA3}.Release|x86.ActiveCfg = Debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
