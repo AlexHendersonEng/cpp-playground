@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "library_link", "library_lin
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "typedef", "typedef\typedef.vcxproj", "{69496CF0-6CA0-41C6-A529-4A3CFD72946D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "templates", "templates\templates.vcxproj", "{7D3836D0-92E6-4DBD-83D5-F6A711E0E00B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -148,6 +150,11 @@ Global
 		{69496CF0-6CA0-41C6-A529-4A3CFD72946D}.Debug|x86.ActiveCfg = Debug|x64
 		{69496CF0-6CA0-41C6-A529-4A3CFD72946D}.Release|x64.ActiveCfg = Debug|x64
 		{69496CF0-6CA0-41C6-A529-4A3CFD72946D}.Release|x86.ActiveCfg = Debug|x64
+		{7D3836D0-92E6-4DBD-83D5-F6A711E0E00B}.Debug|x64.ActiveCfg = Debug|x64
+		{7D3836D0-92E6-4DBD-83D5-F6A711E0E00B}.Debug|x64.Build.0 = Debug|x64
+		{7D3836D0-92E6-4DBD-83D5-F6A711E0E00B}.Debug|x86.ActiveCfg = Debug|x64
+		{7D3836D0-92E6-4DBD-83D5-F6A711E0E00B}.Release|x64.ActiveCfg = Debug|x64
+		{7D3836D0-92E6-4DBD-83D5-F6A711E0E00B}.Release|x86.ActiveCfg = Debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
