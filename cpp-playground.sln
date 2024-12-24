@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "library_link", "library_lin
 		{709BA4C4-1379-44B8-8973-D37A167300CF} = {709BA4C4-1379-44B8-8973-D37A167300CF}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "typedef", "typedef\typedef.vcxproj", "{69496CF0-6CA0-41C6-A529-4A3CFD72946D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,11 @@ Global
 		{82DEE25B-1451-433F-A099-C3B0DDDB2110}.Debug|x86.ActiveCfg = Debug|x64
 		{82DEE25B-1451-433F-A099-C3B0DDDB2110}.Release|x64.ActiveCfg = Debug|x64
 		{82DEE25B-1451-433F-A099-C3B0DDDB2110}.Release|x86.ActiveCfg = Debug|x64
+		{69496CF0-6CA0-41C6-A529-4A3CFD72946D}.Debug|x64.ActiveCfg = Debug|x64
+		{69496CF0-6CA0-41C6-A529-4A3CFD72946D}.Debug|x64.Build.0 = Debug|x64
+		{69496CF0-6CA0-41C6-A529-4A3CFD72946D}.Debug|x86.ActiveCfg = Debug|x64
+		{69496CF0-6CA0-41C6-A529-4A3CFD72946D}.Release|x64.ActiveCfg = Debug|x64
+		{69496CF0-6CA0-41C6-A529-4A3CFD72946D}.Release|x86.ActiveCfg = Debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
