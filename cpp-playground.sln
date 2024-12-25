@@ -57,6 +57,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lambdas", "lambdas\lambdas.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "namespaces", "namespaces\namespaces.vcxproj", "{52E485DA-1D15-4E03-ABAC-058FAE07CBD4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "threads", "threads\threads.vcxproj", "{9DAC6AFF-2B4D-41FA-A046-68016631FBA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -190,6 +192,11 @@ Global
 		{52E485DA-1D15-4E03-ABAC-058FAE07CBD4}.Debug|x86.ActiveCfg = Debug|x64
 		{52E485DA-1D15-4E03-ABAC-058FAE07CBD4}.Release|x64.ActiveCfg = Debug|x64
 		{52E485DA-1D15-4E03-ABAC-058FAE07CBD4}.Release|x86.ActiveCfg = Debug|x64
+		{9DAC6AFF-2B4D-41FA-A046-68016631FBA6}.Debug|x64.ActiveCfg = Debug|x64
+		{9DAC6AFF-2B4D-41FA-A046-68016631FBA6}.Debug|x64.Build.0 = Debug|x64
+		{9DAC6AFF-2B4D-41FA-A046-68016631FBA6}.Debug|x86.ActiveCfg = Debug|x64
+		{9DAC6AFF-2B4D-41FA-A046-68016631FBA6}.Release|x64.ActiveCfg = Debug|x64
+		{9DAC6AFF-2B4D-41FA-A046-68016631FBA6}.Release|x86.ActiveCfg = Debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
