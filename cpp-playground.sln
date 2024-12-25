@@ -53,6 +53,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "auto", "auto\auto.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "function_pointers", "function_pointers\function_pointers.vcxproj", "{47847868-C79A-47EE-A437-1679FDE08E06}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lambdas", "lambdas\lambdas.vcxproj", "{D7B7B058-7C96-4717-AADB-AA6D984BA662}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -176,6 +178,11 @@ Global
 		{47847868-C79A-47EE-A437-1679FDE08E06}.Debug|x86.ActiveCfg = Debug|x64
 		{47847868-C79A-47EE-A437-1679FDE08E06}.Release|x64.ActiveCfg = Debug|x64
 		{47847868-C79A-47EE-A437-1679FDE08E06}.Release|x86.ActiveCfg = Debug|x64
+		{D7B7B058-7C96-4717-AADB-AA6D984BA662}.Debug|x64.ActiveCfg = Debug|x64
+		{D7B7B058-7C96-4717-AADB-AA6D984BA662}.Debug|x64.Build.0 = Debug|x64
+		{D7B7B058-7C96-4717-AADB-AA6D984BA662}.Debug|x86.ActiveCfg = Debug|x64
+		{D7B7B058-7C96-4717-AADB-AA6D984BA662}.Release|x64.ActiveCfg = Debug|x64
+		{D7B7B058-7C96-4717-AADB-AA6D984BA662}.Release|x86.ActiveCfg = Debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
