@@ -9,8 +9,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{90706e8d-be8b-48a7-ae7c-d4811111e88a}</ProjectGuid>
-    <RootNamespace>unions</RootNamespace>
+    <ProjectGuid>{646abfff-cc40-47dc-bd06-2f14251ac5c7}</ProjectGuid>
+    <RootNamespace>casting</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
