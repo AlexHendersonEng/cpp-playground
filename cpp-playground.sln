@@ -71,6 +71,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "move_semantics", "move_sema
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "data_structures", "data_structures\data_structures.vcxproj", "{AE9CAE99-2EFA-4D3E-B09D-C4F270374D2C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iterators", "iterators\iterators.vcxproj", "{42FEF524-D075-4D96-9722-FA84B0E3CEFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -239,6 +241,11 @@ Global
 		{AE9CAE99-2EFA-4D3E-B09D-C4F270374D2C}.Debug|x86.ActiveCfg = Debug|x64
 		{AE9CAE99-2EFA-4D3E-B09D-C4F270374D2C}.Release|x64.ActiveCfg = Debug|x64
 		{AE9CAE99-2EFA-4D3E-B09D-C4F270374D2C}.Release|x86.ActiveCfg = Debug|x64
+		{42FEF524-D075-4D96-9722-FA84B0E3CEFF}.Debug|x64.ActiveCfg = Debug|x64
+		{42FEF524-D075-4D96-9722-FA84B0E3CEFF}.Debug|x64.Build.0 = Debug|x64
+		{42FEF524-D075-4D96-9722-FA84B0E3CEFF}.Debug|x86.ActiveCfg = Debug|x64
+		{42FEF524-D075-4D96-9722-FA84B0E3CEFF}.Release|x64.ActiveCfg = Debug|x64
+		{42FEF524-D075-4D96-9722-FA84B0E3CEFF}.Release|x86.ActiveCfg = Debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
