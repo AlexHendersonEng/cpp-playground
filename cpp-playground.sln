@@ -75,6 +75,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iterators", "iterators\iter
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bitwise_operators", "bitwise_operators\bitwise_operators.vcxproj", "{A7599FA0-B6F1-4965-97FB-034D04F38EB4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maps", "maps\maps.vcxproj", "{9D3097EE-62AA-47E2-895B-A8860246C924}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -253,6 +255,11 @@ Global
 		{A7599FA0-B6F1-4965-97FB-034D04F38EB4}.Debug|x86.ActiveCfg = Debug|x64
 		{A7599FA0-B6F1-4965-97FB-034D04F38EB4}.Release|x64.ActiveCfg = Debug|x64
 		{A7599FA0-B6F1-4965-97FB-034D04F38EB4}.Release|x86.ActiveCfg = Debug|x64
+		{9D3097EE-62AA-47E2-895B-A8860246C924}.Debug|x64.ActiveCfg = Debug|x64
+		{9D3097EE-62AA-47E2-895B-A8860246C924}.Debug|x64.Build.0 = Debug|x64
+		{9D3097EE-62AA-47E2-895B-A8860246C924}.Debug|x86.ActiveCfg = Debug|x64
+		{9D3097EE-62AA-47E2-895B-A8860246C924}.Release|x64.ActiveCfg = Debug|x64
+		{9D3097EE-62AA-47E2-895B-A8860246C924}.Release|x86.ActiveCfg = Debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
